@@ -136,7 +136,7 @@
 				      num = num + 1;
 					  before = num - 1;
 					  after = num + 1;
-					  $("#" + cont + " img:nth-of-type(" + num +")").css(opacity","1");
+					  $("#" + cont + " img:nth-of-type(" + num +")").css("opacity","1");
 					  if(settings.showTitles){
 						$("#" + settings.showTitles).html($("#" + $(that).attr("id") + " img:nth-of-type(" + num +")").attr('title'));
 					  }
